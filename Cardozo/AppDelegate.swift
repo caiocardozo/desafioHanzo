@@ -7,10 +7,7 @@
 //
 
 import UIKit
-import Firebase
 import UserNotifications
-import FirebaseMessaging
-import FirebaseInstanceID
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
@@ -33,34 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let nav = UINavigationController(rootViewController: homeViewController)
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
-    }
-    
-    // MARK: - Firebase
-    func setupFirebase(){
-        FirebaseApp.configure()
-    }
-    
-    // MARK: - Firebase Push Notifications
-    func setupFirebaseNotifications(app: UIApplication){
-       
-        setupFirebase()
-        
-        if #available(iOS 10.0, *) {
-            // For iOS 10 display notification (sent via APNS)
-            UNUserNotificationCenter.current().delegate = self
-            
-            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-            UNUserNotificationCenter.current().requestAuthorization(
-                options: authOptions,
-                completionHandler: {_, _ in })
-            Messaging.messaging().delegate = self
-        } else {
-            let settings: UIUserNotificationSettings =
-                UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
-            app.registerUserNotificationSettings(settings)
-        }
-        
-        app.registerForRemoteNotifications()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -87,18 +56,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
 
 }
-
-// MARK: - Firebase Messaging Delegate
-extension AppDelegate : MessagingDelegate {
-    func application(received remoteMessage: MessagingRemoteMessage) {
-        
-    }
-    
-    // [START refresh_token]
-    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
-        print("Firebase registration token: \(fcmToken)")
-        // refresh token
-    }
-    
-}
-
