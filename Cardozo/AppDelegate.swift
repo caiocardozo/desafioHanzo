@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     private func setupFirstWindow() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let homeViewController = HomeViewController()
+        let homeViewController = PublicRepositoryViewController()
         let nav = UINavigationController(rootViewController: homeViewController)
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
