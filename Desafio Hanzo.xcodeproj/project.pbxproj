@@ -23,6 +23,34 @@
 		4C117D0422922ECB00C81D9E /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C117D0222922ECB00C81D9E /* CustomUIButton.swift */; };
 		4C117D0622922F5000C81D9E /* APPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C117D0522922F5000C81D9E /* APPConstants.swift */; };
 		4C117D0722922F5000C81D9E /* APPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C117D0522922F5000C81D9E /* APPConstants.swift */; };
+		4C179F8F23F96F6F008C9CD5 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179F8E23F96F6F008C9CD5 /* Repository.swift */; };
+		4C179F9023F96F6F008C9CD5 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179F8E23F96F6F008C9CD5 /* Repository.swift */; };
+		4C179F9923F974B5008C9CD5 /* PublicRepositoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179F9823F974B4008C9CD5 /* PublicRepositoriesRepository.swift */; };
+		4C179F9A23F974B5008C9CD5 /* PublicRepositoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179F9823F974B4008C9CD5 /* PublicRepositoriesRepository.swift */; };
+		4C179F9C23F9764F008C9CD5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179F9B23F9764F008C9CD5 /* Owner.swift */; };
+		4C179F9D23F9764F008C9CD5 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179F9B23F9764F008C9CD5 /* Owner.swift */; };
+		4C179FA123F98080008C9CD5 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FA023F98080008C9CD5 /* UserRepository.swift */; };
+		4C179FA223F98080008C9CD5 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FA023F98080008C9CD5 /* UserRepository.swift */; };
+		4C179FA523F981C6008C9CD5 /* PublicRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FA323F981C6008C9CD5 /* PublicRepositoryViewController.swift */; };
+		4C179FA623F981C6008C9CD5 /* PublicRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FA323F981C6008C9CD5 /* PublicRepositoryViewController.swift */; };
+		4C179FA723F981C6008C9CD5 /* PublicRepositoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FA423F981C6008C9CD5 /* PublicRepositoryViewController.xib */; };
+		4C179FA823F981C6008C9CD5 /* PublicRepositoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FA423F981C6008C9CD5 /* PublicRepositoryViewController.xib */; };
+		4C179FAA23F981DB008C9CD5 /* PublicRespositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FA923F981DB008C9CD5 /* PublicRespositoryViewModel.swift */; };
+		4C179FAB23F981DB008C9CD5 /* PublicRespositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FA923F981DB008C9CD5 /* PublicRespositoryViewModel.swift */; };
+		4C179FB323F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FB123F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift */; };
+		4C179FB423F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FB123F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift */; };
+		4C179FB523F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FB223F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib */; };
+		4C179FB623F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FB223F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib */; };
+		4C179FB823F9B452008C9CD5 /* PublicRepositoryCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FB723F9B452008C9CD5 /* PublicRepositoryCellType.swift */; };
+		4C179FB923F9B452008C9CD5 /* PublicRepositoryCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FB723F9B452008C9CD5 /* PublicRepositoryCellType.swift */; };
+		4C179FBC23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FBA23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift */; };
+		4C179FBD23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C179FBA23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift */; };
+		4C179FBE23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FBB23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib */; };
+		4C179FBF23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FBB23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib */; };
+		4C179FC523F9C1E3008C9CD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FC323F9C1E2008C9CD5 /* Localizable.strings */; };
+		4C179FC623F9C1E3008C9CD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FC323F9C1E2008C9CD5 /* Localizable.strings */; };
+		4C179FC923F9C252008C9CD5 /* Cardozo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FC823F9C252008C9CD5 /* Cardozo-Info.plist */; };
+		4C179FCA23F9C252008C9CD5 /* Cardozo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C179FC823F9C252008C9CD5 /* Cardozo-Info.plist */; };
 		4C4CE7F8228CDE050094DA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CE7F7228CDE050094DA2A /* AppDelegate.swift */; };
 		4C4CE7FF228CDE070094DA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CE7FE228CDE070094DA2A /* Assets.xcassets */; };
 		4C4CE802228CDE070094DA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CE800228CDE070094DA2A /* LaunchScreen.storyboard */; };
@@ -67,12 +95,25 @@
 		4C117D0222922ECB00C81D9E /* CustomUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
 		4C117D0522922F5000C81D9E /* APPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPConstants.swift; sourceTree = "<group>"; };
 		4C117D0F2292321C00C81D9E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4C179F8E23F96F6F008C9CD5 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4C179F9823F974B4008C9CD5 /* PublicRepositoriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepositoriesRepository.swift; sourceTree = "<group>"; };
+		4C179F9B23F9764F008C9CD5 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		4C179FA023F98080008C9CD5 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		4C179FA323F981C6008C9CD5 /* PublicRepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepositoryViewController.swift; sourceTree = "<group>"; };
+		4C179FA423F981C6008C9CD5 /* PublicRepositoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublicRepositoryViewController.xib; sourceTree = "<group>"; };
+		4C179FA923F981DB008C9CD5 /* PublicRespositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRespositoryViewModel.swift; sourceTree = "<group>"; };
+		4C179FB123F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		4C179FB223F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublicRepositoryTableViewCell.xib; sourceTree = "<group>"; };
+		4C179FB723F9B452008C9CD5 /* PublicRepositoryCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepositoryCellType.swift; sourceTree = "<group>"; };
+		4C179FBA23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepositoryEmptyTableViewCell.swift; sourceTree = "<group>"; };
+		4C179FBB23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublicRepositoryEmptyTableViewCell.xib; sourceTree = "<group>"; };
+		4C179FC423F9C1E2008C9CD5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4C179FC823F9C252008C9CD5 /* Cardozo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Cardozo-Info.plist"; sourceTree = "<group>"; };
 		4C4CE7F4228CDE050094DA2A /* Hanzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4CE7F7228CDE050094DA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C4CE7FE228CDE070094DA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4CE801228CDE070094DA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4CE815228CDEAF0094DA2A /* Hanzo-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hanzo-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C4CE816228CDEAF0094DA2A /* Cardozo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Cardozo-Info.plist"; path = "/Users/caiocardozo/Projects/XCodeProjects/VSTeam/ios-base-swift/Cardozo-Info.plist"; sourceTree = "<absolute>"; };
 		4C72C2812296123E00541456 /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		4C72C28522962E1D00541456 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		4C72C28D2296304200541456 /* CustomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRepository.swift; sourceTree = "<group>"; };
@@ -119,7 +160,6 @@
 		4C117D0022922E5D00C81D9E /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
-				4CAF656F22B43DA0001C8659 /* CustomImageView */,
 				4C72C2802296122200541456 /* CustomUIView */,
 				4C117D0122922EA600C81D9E /* CustomUIButton */,
 			);
@@ -134,13 +174,6 @@
 			path = CustomUIButton;
 			sourceTree = "<group>";
 		};
-		4C117D0822922FAE00C81D9E /* Singletons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Singletons;
-			sourceTree = "<group>";
-		};
 		4C117D0922922FC700C81D9E /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,9 +182,147 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4C117D0A22922FE700C81D9E /* Strings */ = {
+		4C179F8923F96F20008C9CD5 /* PublicRespositories */ = {
 			isa = PBXGroup;
 			children = (
+				4C179FB023F9B2AF008C9CD5 /* ViewCell */,
+				4C179F8C23F96F4A008C9CD5 /* ViewController */,
+				4C179F8D23F96F54008C9CD5 /* ViewModel */,
+				4C179F8A23F96F33008C9CD5 /* Model */,
+				4C179F9723F97457008C9CD5 /* Network */,
+			);
+			path = PublicRespositories;
+			sourceTree = "<group>";
+		};
+		4C179F8A23F96F33008C9CD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C179F8E23F96F6F008C9CD5 /* Repository.swift */,
+				4C179FB723F9B452008C9CD5 /* PublicRepositoryCellType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C179F8C23F96F4A008C9CD5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C179FA323F981C6008C9CD5 /* PublicRepositoryViewController.swift */,
+				4C179FA423F981C6008C9CD5 /* PublicRepositoryViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C179F8D23F96F54008C9CD5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C179FA923F981DB008C9CD5 /* PublicRespositoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C179F9123F96F8E008C9CD5 /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+				4C179F9323F97404008C9CD5 /* ViewController */,
+				4C179F9523F97419008C9CD5 /* ViewModel */,
+				4C179F9223F973FF008C9CD5 /* Model */,
+				4C179F9623F9744A008C9CD5 /* Network */,
+			);
+			path = Owner;
+			sourceTree = "<group>";
+		};
+		4C179F9223F973FF008C9CD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C179F9B23F9764F008C9CD5 /* Owner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C179F9323F97404008C9CD5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C179F9523F97419008C9CD5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C179F9623F9744A008C9CD5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4C179F9723F97457008C9CD5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4C179F9823F974B4008C9CD5 /* PublicRepositoriesRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4C179F9E23F98057008C9CD5 /* UserRepositories */ = {
+			isa = PBXGroup;
+			children = (
+				4C179FAC23F98291008C9CD5 /* ViewController */,
+				4C179FAE23F982A5008C9CD5 /* ViewModel */,
+				4C179F9F23F98062008C9CD5 /* Model */,
+				4C179FAF23F98317008C9CD5 /* Network */,
+			);
+			path = UserRepositories;
+			sourceTree = "<group>";
+		};
+		4C179F9F23F98062008C9CD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C179FA023F98080008C9CD5 /* UserRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C179FAC23F98291008C9CD5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C179FAE23F982A5008C9CD5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C179FAF23F98317008C9CD5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4C179FB023F9B2AF008C9CD5 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4C179FB123F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift */,
+				4C179FB223F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib */,
+				4C179FBA23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift */,
+				4C179FBB23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		4C179FC723F9C1E8008C9CD5 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				4C179FC323F9C1E2008C9CD5 /* Localizable.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -178,7 +349,7 @@
 		4C4CE7F6228CDE050094DA2A /* Cardozo */ = {
 			isa = PBXGroup;
 			children = (
-				4C117D0A22922FE700C81D9E /* Strings */,
+				4C179FC723F9C1E8008C9CD5 /* Strings */,
 				4CA1926D228D0C7D00AD0B35 /* Utils */,
 				4C4CE7F7228CDE050094DA2A /* AppDelegate.swift */,
 				4C4CE7FE228CDE070094DA2A /* Assets.xcassets */,
@@ -206,13 +377,6 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		4C72C28822962EF500541456 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		4C72C28C2296302800541456 /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,7 +388,7 @@
 		4CA19259228CE33A00AD0B35 /* InfoPLists */ = {
 			isa = PBXGroup;
 			children = (
-				4C4CE816228CDEAF0094DA2A /* Cardozo-Info.plist */,
+				4C179FC823F9C252008C9CD5 /* Cardozo-Info.plist */,
 				4CA19256228CE31300AD0B35 /* Cardozo-Dev-Info.plist */,
 			);
 			path = InfoPLists;
@@ -233,6 +397,9 @@
 		4CA1925A228CE35400AD0B35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4C179F9E23F98057008C9CD5 /* UserRepositories */,
+				4C179F9123F96F8E008C9CD5 /* Owner */,
+				4C179F8923F96F20008C9CD5 /* PublicRespositories */,
 				4CA1925C228CE36700AD0B35 /* Home */,
 			);
 			path = Views;
@@ -241,9 +408,7 @@
 		4CA1925B228CE35E00AD0B35 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				4C72C28822962EF500541456 /* Common */,
 				4C117D0922922FC700C81D9E /* Models */,
-				4C117D0822922FAE00C81D9E /* Singletons */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -309,13 +474,6 @@
 				4C117D0522922F5000C81D9E /* APPConstants.swift */,
 			);
 			path = Constants;
-			sourceTree = "<group>";
-		};
-		4CAF656F22B43DA0001C8659 /* CustomImageView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomImageView;
 			sourceTree = "<group>";
 		};
 		91738310EF6068A6D46A0127 /* Pods */ = {
@@ -423,8 +581,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C179FB523F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib in Resources */,
 				4C4CE802228CDE070094DA2A /* LaunchScreen.storyboard in Resources */,
+				4C179FA723F981C6008C9CD5 /* PublicRepositoryViewController.xib in Resources */,
 				4C4CE7FF228CDE070094DA2A /* Assets.xcassets in Resources */,
+				4C179FC923F9C252008C9CD5 /* Cardozo-Info.plist in Resources */,
+				4C179FBE23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib in Resources */,
+				4C179FC523F9C1E3008C9CD5 /* Localizable.strings in Resources */,
 				4CA19257228CE31300AD0B35 /* Cardozo-Dev-Info.plist in Resources */,
 				4CA19268228CFFF700AD0B35 /* HomeViewController.xib in Resources */,
 			);
@@ -435,8 +598,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C4CE80F228CDEAF0094DA2A /* LaunchScreen.storyboard in Resources */,
+				4C179FB623F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.xib in Resources */,
+				4C179FBF23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.xib in Resources */,
+				4C179FC623F9C1E3008C9CD5 /* Localizable.strings in Resources */,
+				4C179FA823F981C6008C9CD5 /* PublicRepositoryViewController.xib in Resources */,
 				4C4CE810228CDEAF0094DA2A /* Assets.xcassets in Resources */,
 				4CA19269228CFFF700AD0B35 /* HomeViewController.xib in Resources */,
+				4C179FCA23F9C252008C9CD5 /* Cardozo-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +696,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C179F9923F974B5008C9CD5 /* PublicRepositoriesRepository.swift in Sources */,
 				4C72C291229632C400541456 /* CustomResponse.swift in Sources */,
+				4C179FB323F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift in Sources */,
 				4C117CFB22922D5200C81D9E /* CustomCollectionView.swift in Sources */,
 				4C72C2822296123E00541456 /* CustomUIView.swift in Sources */,
 				4C4CE7F8228CDE050094DA2A /* AppDelegate.swift in Sources */,
@@ -539,14 +709,21 @@
 				4C72C28622962E1D00541456 /* ErrorResponse.swift in Sources */,
 				4C117CF8229225DB00C81D9E /* CustomTableVIew.swift in Sources */,
 				4CA19266228CFFF700AD0B35 /* HomeViewController.swift in Sources */,
+				4C179FB823F9B452008C9CD5 /* PublicRepositoryCellType.swift in Sources */,
 				4C117D0322922ECB00C81D9E /* CustomUIButton.swift in Sources */,
+				4C179FA523F981C6008C9CD5 /* PublicRepositoryViewController.swift in Sources */,
+				4C179FBC23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift in Sources */,
+				4C179FA123F98080008C9CD5 /* UserRepository.swift in Sources */,
 				4CA1926B228D001100AD0B35 /* HomeViewModel.swift in Sources */,
 				4CA19270228D0CC200AD0B35 /* CustomViewController.swift in Sources */,
 				4CA19279228D0F0C00AD0B35 /* CustomEncodable.swift in Sources */,
 				4C117CF42292246F00C81D9E /* CustomString.swift in Sources */,
 				4CA19276228D0E8900AD0B35 /* CustomColors.swift in Sources */,
+				4C179F8F23F96F6F008C9CD5 /* Repository.swift in Sources */,
+				4C179F9C23F9764F008C9CD5 /* Owner.swift in Sources */,
 				4CA19273228D0E4E00AD0B35 /* CustomData.swift in Sources */,
 				4C72C28E2296304200541456 /* CustomRepository.swift in Sources */,
+				4C179FAA23F981DB008C9CD5 /* PublicRespositoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +731,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C179F9A23F974B5008C9CD5 /* PublicRepositoriesRepository.swift in Sources */,
 				4C72C292229632C400541456 /* CustomResponse.swift in Sources */,
+				4C179FB423F9B2D1008C9CD5 /* PublicRepositoryTableViewCell.swift in Sources */,
 				4C117CFC22922D5200C81D9E /* CustomCollectionView.swift in Sources */,
 				4C72C2832296123E00541456 /* CustomUIView.swift in Sources */,
 				4C4CE80C228CDEAF0094DA2A /* AppDelegate.swift in Sources */,
@@ -565,20 +744,35 @@
 				4C72C28722962E1D00541456 /* ErrorResponse.swift in Sources */,
 				4C117CF9229225DB00C81D9E /* CustomTableVIew.swift in Sources */,
 				4CA1926C228D001100AD0B35 /* HomeViewModel.swift in Sources */,
+				4C179FB923F9B452008C9CD5 /* PublicRepositoryCellType.swift in Sources */,
 				4C117D0422922ECB00C81D9E /* CustomUIButton.swift in Sources */,
+				4C179FA623F981C6008C9CD5 /* PublicRepositoryViewController.swift in Sources */,
+				4C179FBD23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift in Sources */,
+				4C179FA223F98080008C9CD5 /* UserRepository.swift in Sources */,
 				4CA19271228D0CC200AD0B35 /* CustomViewController.swift in Sources */,
 				4C117CF52292247300C81D9E /* CustomString.swift in Sources */,
 				4CA1927A228D0F0C00AD0B35 /* CustomEncodable.swift in Sources */,
 				4CA19277228D0E8900AD0B35 /* CustomColors.swift in Sources */,
 				4CA19274228D0E4E00AD0B35 /* CustomData.swift in Sources */,
+				4C179F9023F96F6F008C9CD5 /* Repository.swift in Sources */,
+				4C179F9D23F9764F008C9CD5 /* Owner.swift in Sources */,
 				4C117CF62292247600C81D9E /* CustomImageView.swift in Sources */,
 				4C72C28F2296304200541456 /* CustomRepository.swift in Sources */,
+				4C179FAB23F981DB008C9CD5 /* PublicRespositoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4C179FC323F9C1E2008C9CD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C179FC423F9C1E2008C9CD5 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		4C4CE800228CDE070094DA2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

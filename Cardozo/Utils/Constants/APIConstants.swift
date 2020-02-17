@@ -8,9 +8,16 @@
 
 import Foundation
 
-#if Prod
-let URL_API = ""
-#else
-let URL_API = ""
-#endif
+
+
+
+enum ConstantsApi {
+    #if Prod
+    static let urlApi = "https://api.github.com/"
+    #else
+    static let urlApi = "https://api.github.com/"
+    #endif
+    static let urlPublicRepositories: String = "repositories"
+        
+}
 
