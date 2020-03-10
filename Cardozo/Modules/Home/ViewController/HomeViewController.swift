@@ -14,7 +14,7 @@ class HomeViewController: UIViewController {
     
     
     //MARK: - Constants
-    let viewModel = HomeViewModel()
+    var viewModel: HomeViewModel!
     
     //MARK: - LifeCycle
     override func viewDidLoad() {
@@ -27,5 +27,8 @@ class HomeViewController: UIViewController {
     }
 
    
-
+    @IBAction func didTapRepositoriesButton(_ sender: Any) {
+        viewModel.clickRepositorieButton.onNext(())
+    }
+    
 }

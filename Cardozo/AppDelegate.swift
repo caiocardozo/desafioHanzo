@@ -7,20 +7,30 @@
 //
 
 import UIKit
+import RxSwift
 import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
-
+    private var appCoordinator: AppCoordinator!
+    private let disposeBag = DisposeBag()
+    
     override init() {
         super.init()
         UIViewController.classInit
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        self.setupFirstWindow()
+        
+        window = UIWindow()
+        
+        appCoordinator = AppCoordinator(window: window!)
+        appCoordinator.start()
+            .subscribe()
+            .disposed(by: disposeBag)
+        
         return true
     }
     

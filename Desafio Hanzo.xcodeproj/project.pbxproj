@@ -82,6 +82,14 @@
 		4CA1927A228D0F0C00AD0B35 /* CustomEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA19278228D0F0C00AD0B35 /* CustomEncodable.swift */; };
 		4CA19287228D0FD300AD0B35 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA19286228D0FD300AD0B35 /* APIConstants.swift */; };
 		4CA19288228D0FD300AD0B35 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA19286228D0FD300AD0B35 /* APIConstants.swift */; };
+		4CDBBB072417141B00CBD466 /* ReactiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB062417141B00CBD466 /* ReactiveCoordinator.swift */; };
+		4CDBBB082417141B00CBD466 /* ReactiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB062417141B00CBD466 /* ReactiveCoordinator.swift */; };
+		4CDBBB0C241715E500CBD466 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB0B241715E500CBD466 /* HomeCoordinator.swift */; };
+		4CDBBB0D241715E500CBD466 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB0B241715E500CBD466 /* HomeCoordinator.swift */; };
+		4CDBBB0F241715F900CBD466 /* PublicRepositoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB0E241715F900CBD466 /* PublicRepositoriesCoordinator.swift */; };
+		4CDBBB10241715F900CBD466 /* PublicRepositoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB0E241715F900CBD466 /* PublicRepositoriesCoordinator.swift */; };
+		4CDBBB12241716F400CBD466 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB11241716F400CBD466 /* AppCoordinator.swift */; };
+		4CDBBB13241716F400CBD466 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBB11241716F400CBD466 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +135,10 @@
 		4CA19275228D0E8900AD0B35 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		4CA19278228D0F0C00AD0B35 /* CustomEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEncodable.swift; sourceTree = "<group>"; };
 		4CA19286228D0FD300AD0B35 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		4CDBBB062417141B00CBD466 /* ReactiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCoordinator.swift; sourceTree = "<group>"; };
+		4CDBBB0B241715E500CBD466 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		4CDBBB0E241715F900CBD466 /* PublicRepositoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepositoriesCoordinator.swift; sourceTree = "<group>"; };
+		4CDBBB11241716F400CBD466 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		53ACBDE47D0A5600CF816070 /* Pods_Hanzo_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanzo_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD32B6BA066ABF2319CB234 /* Pods-Hanzo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanzo.debug.xcconfig"; path = "Target Support Files/Pods-Hanzo/Pods-Hanzo.debug.xcconfig"; sourceTree = "<group>"; };
 		9C1DA7B1006AD58AC321B385 /* Pods-Hanzo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanzo.release.xcconfig"; path = "Target Support Files/Pods-Hanzo/Pods-Hanzo.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,9 +194,41 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		4C143EB42417E05F004B062E /* RepositoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4C143EB72417E086004B062E /* ViewModel */,
+				4C143EB62417E07E004B062E /* ViewController */,
+				4C143EB52417E06B004B062E /* Coordinator */,
+			);
+			path = RepositoryDetail;
+			sourceTree = "<group>";
+		};
+		4C143EB52417E06B004B062E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4C143EB62417E07E004B062E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C143EB72417E086004B062E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4C179F8923F96F20008C9CD5 /* PublicRespositories */ = {
 			isa = PBXGroup;
 			children = (
+				4CDBBB0A2417159E00CBD466 /* Coordinator */,
 				4C179FB023F9B2AF008C9CD5 /* ViewCell */,
 				4C179F8C23F96F4A008C9CD5 /* ViewController */,
 				4C179F8D23F96F54008C9CD5 /* ViewModel */,
@@ -349,6 +393,7 @@
 		4C4CE7F6228CDE050094DA2A /* Cardozo */ = {
 			isa = PBXGroup;
 			children = (
+				4CDBBB052417139000CBD466 /* App */,
 				4C179FC723F9C1E8008C9CD5 /* Strings */,
 				4CA1926D228D0C7D00AD0B35 /* Utils */,
 				4C4CE7F7228CDE050094DA2A /* AppDelegate.swift */,
@@ -356,7 +401,7 @@
 				4C4CE800228CDE070094DA2A /* LaunchScreen.storyboard */,
 				4CA1925B228CE35E00AD0B35 /* Data */,
 				4CA19259228CE33A00AD0B35 /* InfoPLists */,
-				4CA1925A228CE35400AD0B35 /* Views */,
+				4CA1925A228CE35400AD0B35 /* Modules */,
 			);
 			path = Cardozo;
 			sourceTree = "<group>";
@@ -394,15 +439,16 @@
 			path = InfoPLists;
 			sourceTree = "<group>";
 		};
-		4CA1925A228CE35400AD0B35 /* Views */ = {
+		4CA1925A228CE35400AD0B35 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4C143EB42417E05F004B062E /* RepositoryDetail */,
 				4C179F9E23F98057008C9CD5 /* UserRepositories */,
 				4C179F9123F96F8E008C9CD5 /* Owner */,
 				4C179F8923F96F20008C9CD5 /* PublicRespositories */,
 				4CA1925C228CE36700AD0B35 /* Home */,
 			);
-			path = Views;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		4CA1925B228CE35E00AD0B35 /* Data */ = {
@@ -416,6 +462,7 @@
 		4CA1925C228CE36700AD0B35 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4CDBBB092417158400CBD466 /* Coordinator */,
 				4CA1925E228CE37700AD0B35 /* ViewController */,
 				4CA1925D228CE36D00AD0B35 /* ViewModel */,
 			);
@@ -474,6 +521,31 @@
 				4C117D0522922F5000C81D9E /* APPConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		4CDBBB052417139000CBD466 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBBB062417141B00CBD466 /* ReactiveCoordinator.swift */,
+				4CDBBB11241716F400CBD466 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4CDBBB092417158400CBD466 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBBB0B241715E500CBD466 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4CDBBB0A2417159E00CBD466 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBBB0E241715F900CBD466 /* PublicRepositoriesCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		91738310EF6068A6D46A0127 /* Pods */ = {
@@ -702,17 +774,21 @@
 				4C117CFB22922D5200C81D9E /* CustomCollectionView.swift in Sources */,
 				4C72C2822296123E00541456 /* CustomUIView.swift in Sources */,
 				4C4CE7F8228CDE050094DA2A /* AppDelegate.swift in Sources */,
+				4CDBBB072417141B00CBD466 /* ReactiveCoordinator.swift in Sources */,
 				4C117CF22292243700C81D9E /* CustomImageView.swift in Sources */,
 				4C117D0622922F5000C81D9E /* APPConstants.swift in Sources */,
 				4C117CFE22922D9000C81D9E /* UIButton.swift in Sources */,
 				4CA19287228D0FD300AD0B35 /* APIConstants.swift in Sources */,
 				4C72C28622962E1D00541456 /* ErrorResponse.swift in Sources */,
+				4CDBBB0F241715F900CBD466 /* PublicRepositoriesCoordinator.swift in Sources */,
 				4C117CF8229225DB00C81D9E /* CustomTableVIew.swift in Sources */,
 				4CA19266228CFFF700AD0B35 /* HomeViewController.swift in Sources */,
 				4C179FB823F9B452008C9CD5 /* PublicRepositoryCellType.swift in Sources */,
 				4C117D0322922ECB00C81D9E /* CustomUIButton.swift in Sources */,
 				4C179FA523F981C6008C9CD5 /* PublicRepositoryViewController.swift in Sources */,
+				4CDBBB0C241715E500CBD466 /* HomeCoordinator.swift in Sources */,
 				4C179FBC23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift in Sources */,
+				4CDBBB12241716F400CBD466 /* AppCoordinator.swift in Sources */,
 				4C179FA123F98080008C9CD5 /* UserRepository.swift in Sources */,
 				4CA1926B228D001100AD0B35 /* HomeViewModel.swift in Sources */,
 				4CA19270228D0CC200AD0B35 /* CustomViewController.swift in Sources */,
@@ -737,17 +813,21 @@
 				4C117CFC22922D5200C81D9E /* CustomCollectionView.swift in Sources */,
 				4C72C2832296123E00541456 /* CustomUIView.swift in Sources */,
 				4C4CE80C228CDEAF0094DA2A /* AppDelegate.swift in Sources */,
+				4CDBBB082417141B00CBD466 /* ReactiveCoordinator.swift in Sources */,
 				4CA19288228D0FD300AD0B35 /* APIConstants.swift in Sources */,
 				4C117D0722922F5000C81D9E /* APPConstants.swift in Sources */,
 				4C117CFF22922D9000C81D9E /* UIButton.swift in Sources */,
 				4CA19267228CFFF700AD0B35 /* HomeViewController.swift in Sources */,
 				4C72C28722962E1D00541456 /* ErrorResponse.swift in Sources */,
+				4CDBBB10241715F900CBD466 /* PublicRepositoriesCoordinator.swift in Sources */,
 				4C117CF9229225DB00C81D9E /* CustomTableVIew.swift in Sources */,
 				4CA1926C228D001100AD0B35 /* HomeViewModel.swift in Sources */,
 				4C179FB923F9B452008C9CD5 /* PublicRepositoryCellType.swift in Sources */,
 				4C117D0422922ECB00C81D9E /* CustomUIButton.swift in Sources */,
 				4C179FA623F981C6008C9CD5 /* PublicRepositoryViewController.swift in Sources */,
+				4CDBBB0D241715E500CBD466 /* HomeCoordinator.swift in Sources */,
 				4C179FBD23F9BA67008C9CD5 /* PublicRepositoryEmptyTableViewCell.swift in Sources */,
+				4CDBBB13241716F400CBD466 /* AppCoordinator.swift in Sources */,
 				4C179FA223F98080008C9CD5 /* UserRepository.swift in Sources */,
 				4CA19271228D0CC200AD0B35 /* CustomViewController.swift in Sources */,
 				4C117CF52292247300C81D9E /* CustomString.swift in Sources */,

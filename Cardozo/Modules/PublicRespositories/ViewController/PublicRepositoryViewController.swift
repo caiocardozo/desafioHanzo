@@ -13,10 +13,10 @@ class PublicRepositoryViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    private let viewModel = PublicRepositoryViewModel()
     private let cellRepository = "PublicRepositoryTableViewCell"
     private let cellRepositoryEmpty = "PublicRepositoryEmptyTableViewCell"
     private let disposeBag = DisposeBag()
+    var viewModel: PublicRepositoryViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,13 +31,14 @@ class PublicRepositoryViewController: UIViewController {
     }
     
     private func setupObservables() {
-        self.viewModel.loading.asObservable().bind{(loading) in
-            self.setLoader(show: loading)
-        }.disposed(by: self.disposeBag)
+        self.viewModel.loading
+            .subscribe(onNext: { [weak self] isLoading in
+                    self?.setLoader(show: isLoading)
+            }).disposed(by: disposeBag)
         
         self.viewModel.error.asObservable().bind{(message) in
             self.showErrorAlert(message: message)
-        }.disposed(by: self.disposeBag)
+        }.disposed(by: disposeBag)
     }
     
     
